@@ -115,8 +115,8 @@ def binaryToNumber(bin):
     lastSpot = len(bin) - 1
     lastDigit = bin[lastSpot]
 
-  if lastDigit == '1':
-    decimal1 = decimal1 + value
+    if lastDigit == '1':
+      decimal = decimal + value
     value = value * 2
     bin = bin[0:lastSpot]
 
